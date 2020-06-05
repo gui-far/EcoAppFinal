@@ -1,0 +1,178 @@
+------------------------------------------------------
+Create folder "server"
+Open terminal inside this folder, then run....
+
+npm init -y 
+Creates default package.json
+
+npm install typescript -D 
+Install typescript for node
+
+npm install ts-node -D 
+Makes node "understand" typescript
+
+npx tsc --init  
+Typescript config file
+
+npm install express --save 
+Install express
+
+npm install @types/express -D
+Install types for IntelliSense
+
+npm ts-node src/server.ts
+Run the server
+
+npm install ts-node-dev -D
+Run ts-node for developer
+
+npx ts-node-dev src/server.ts
+This will "restart" app everytime some file changes
+
+Go to package JSON, under scripts add:
+"dev" : "ts-node-dev src/server.ts",
+
+Now its possible to run:
+npm run dev 
+
+------------------------------------------------------
+
+Get out serve folder
+Create a new folder "web", then run...
+
+npx create-react-app web --template=typescript
+Will download react content
+
+------------------------------------------------------
+
+npm i knex
+Its a QueryBuilder that will help us making queries to database
+
+------------------------------------------------------
+
+npm i sqlite3
+Its a Database
+
+------------------------------------------------------
+
+npm i cors
+Choose wich site can access our api
+
+------------------------------------------------------
+
+CTRL+SHIF+P 
+"Preferences: Open Settings (JSON)
+
+------------------------------------------------------
+
+npm i reac-icons
+Icons
+
+------------------------------------------------------
+
+npm i react-router-dom
+Manage links between components/pages
+
+------------------------------------------------------
+
+npm i leaflet react-leaflet
+Its a open source map
+
+------------------------------------------------------
+
+npm i axios
+JSON Request library
+
+------------------------------------------------------
+
+npm i -g expo-cli
+Platform to make mobile apps with React
+
+------------------------------------------------------
+
+expo init "name_of_project"
+Will create the mobile name
+
+npm start
+Will open your browser with a "terminal" for expo
+You will be able to scan QR code and use it in Expo Client Android app
+You can also use a emular,
+Or another webPage as a device
+
+------------------------------------------------------
+
+expo install expo-font @expo-google-fonts/ubuntu @expo-google-fonts/roboto
+Install google fonts for reac-native
+
+------------------------------------------------------
+
+npm i @react-navigation/native
+Equivalent to "npm i react-router-dom"
+Is the router for mobile
+
+------------------------------------------------------
+
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+
+react-native-gesture-handler: The slide finger detection
+react-native-reanimated: Animations
+react-native-screens: Handle different screens
+react-native-safe-area-context: inhibit touches some place like push notification areas
+@react-native-community/masked-view: Didn't understand whats is this, ...
+
+------------------------------------------------------
+
+npm i @react-navigation/stack
+Use the "stack" method to navigate between the screen.
+
+------------------------------------------------------
+
+npm i react-native-maps
+Allow use maps inside app
+
+------------------------------------------------------
+
+expo install expo-constants
+CSS/Style stuff...
+
+------------------------------------------------------
+
+expo install react-native-svg
+Makes react-native recognize .svg files
+
+------------------------------------------------------
+
+npm i axios
+This time for mobile folder
+
+------------------------------------------------------
+
+expo install expo-location
+Geolocation
+
+------------------------------------------------------
+
+expo install expo-mail-composer 
+Send email tool
+
+------------------------------------------------------
+
+npm i multer
+(backend)
+Uploads library
+
+------------------------------------------------------
+
+npm install react-dropzone
+Its that drag and drop feature for downloads
+
+------------------------------------------------------
+
+npm i yup
+FrontEnd Validation
+
+npm i celebrate
+Backend Validation
+
+maybe it will need:
+npm install @types/hapi__joi -D

@@ -14,16 +14,10 @@ it is allowed to dispose of some types of waste such as oil, batteries ...
 
 ============================================================================================================================
 
-What you can do with this?
+There are several dependencies but the major ones are:
 
-You can...
+Server: Express + Knex + Sqlite
+Web: React + Axios
+Mobile: React Native + Axios + Expo
 
-1. Create an Point (Location).
-
-2. Get Items
-    Check if password match
-    Create and session tokens
-
-3. Get Points x Items
-
-
+============================================================================================================================
